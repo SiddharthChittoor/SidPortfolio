@@ -269,12 +269,62 @@ legend {
   color: inherit;
   white-space: normal; }
 
-progress {
-  vertical-align: baseline; }
+.section,
+.section-alt {
+	margin: 0 auto;
+	padding: 75px 0;
+	position: relative;
+}
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+.section { background-color: #fff; }
+.section-alt { background-color: #eee; }
+
+
+.section-title {
+	margin: -10 0 15px 0;
+	padding: 0;
+	font-size: 2.250em;
+	font-weight: 300;
+	color: #0f1025;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+#skills .line { background-color: #f08b65; }
+
+.skill { text-align: center; }
+.skill-pie {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 14pt;
+	font-weight: 300;
+}
+.easyPieChart canvas { margin: 0 auto; }
+.skill h3 { margin-bottom: 0; padding-bottom: 0; }
+.section-title .cool {
+	line-height: 1.7em;
+}
+
+.section-content { margin-top: 5px; }
+
+.section h3,
+.section-alt h3 {
+	font-size: 1.5em;
+	color: #222;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.section h4,
+.section-alt h4 {
+	font-size: 1em;
+	color: #222;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.column > :first-child { margin-top: 0; }
 
 [type="search"] {
   outline-offset: -2px;
