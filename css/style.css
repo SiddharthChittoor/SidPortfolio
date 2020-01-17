@@ -4,6 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ .nav-item span{ color: red;}
 :root {
   --blue: #F02E04;
   --indigo: #F02E04
@@ -277,7 +278,7 @@ legend {
 }
 
 .section { background-color: #fff; }
-.section-alt { background-color: #eee; }
+/* .section-alt { background-color: #eee; } */
 
 
 .section-title {
